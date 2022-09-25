@@ -6,3 +6,21 @@ window.onload = () => {
     alert();
   });
 };
+
+var questions = [
+  {
+    question: "what season do we meet the anointed one?",
+    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
+    corredtAnswerIndex: 1,
+  },
+  {
+    question: "what season do we meet the anointed one?",
+    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
+    corredtAnswerIndex: 1,
+  },
+  {
+    question: "what season do we meet the anointed one?",
+    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
+    corredtAnswerIndex: 1,
+  },
+];
