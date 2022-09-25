@@ -1,9 +1,9 @@
 window.onload = () => {
-  document.getElementById("game-button").addEventListener("click", () => {
+  document.getElementById("vhs-button").addEventListener("click", () => {
     alert();
   });
   document.getElementById("play-button").addEventListener("click", () => {
-    alert();
+    $(".buttons").hide();
   });
 };
 
