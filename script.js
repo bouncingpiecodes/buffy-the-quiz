@@ -81,23 +81,28 @@ function askQuestion(index) {
 var questions = [
   {
     question: "what season do we meet the anointed one?",
-    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    correctAnswerIndex: 1,
+    answers: ["season 4", "season 3", "season 2", "season 1"],
+    correctAnswerIndex: 3,
   },
   {
     question:
       "who said the line “that’s me favorite shirt, that’s me only shirt!”",
-    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    correctAnswerIndex: 1,
+    answers: ["spike", "ripper", "kendra", "jenny"],
+    correctAnswerIndex: 2,
   },
   {
     question: "what monster babe did xander NOT date?",
-    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    correctAnswerIndex: 1,
+    answers: [
+      "she-mantis",
+      "1000 year old vengeance demon",
+      "uber-vamp",
+      "inca mummy girl",
+    ],
+    correctAnswerIndex: 2,
   },
   {
-    question: "what season do we meet the anointed one?",
-    answers: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    correctAnswerIndex: 1,
+    question: "what is the acronym for joyce's anti monster group?",
+    answers: ["MOO", "MOB", "MOM", "MOPE"],
+    correctAnswerIndex: 0,
   },
 ];
