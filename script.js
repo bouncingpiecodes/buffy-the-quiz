@@ -4,7 +4,21 @@ var timer;
 var answersCorrect;
 window.onload = () => {
   document.getElementById("vhs-button").addEventListener("click", () => {
-    alert();
+    $(".vhs").removeClass("hide");
+    $(".buttons").hide();
+    var scores = localStorage.scores ? JSON.parse(localStorage.scores) : [];
+    var highScores = scores.map(function (score) {
+      return (
+        "<p>" +
+        score.initials +
+        " - " +
+        score.score +
+        "/" +
+        questions.length +
+        "</p>"
+      );
+    });
+    $("#scores").html(highScores.join(""));
   });
   document.getElementById("play-button").addEventListener("click", () => {
     $(".buttons").hide();
