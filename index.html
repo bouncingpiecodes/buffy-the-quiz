@@ -14,13 +14,18 @@
       <header>
         <h1>Buffy The Quiz</h1>
       </header>
+      <div class="ehs hide">
+        <p>enter your initials</p>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <button class="button">Save Score</button>
+      </div>
       <div class="questions hide">
         <h2 id="question">this is the question</h2>
 
-        <p id="answer-a">answers</p>
-        <p id="answer-b">answers</p>
-        <p id="answer-c">answers</p>
-        <p id="answer-d">answers</p>
+        <p onclick="answerQuestion(0)" id="answer-a">answers</p>
+        <p onclick="answerQuestion(1)" id="answer-b">answers</p>
+        <p onclick="answerQuestion(2)" id="answer-c">answers</p>
+        <p onclick="answerQuestion(3)" id="answer-d">answers</p>
       </div>
       <div class="timer"></div>
       <div class="buttons">
