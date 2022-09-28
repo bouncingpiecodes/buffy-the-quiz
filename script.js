@@ -105,4 +105,41 @@ var questions = [
     answers: ["MOO", "MOB", "MOM", "MOPE"],
     correctAnswerIndex: 0,
   },
+  {
+    question: "how long was faith in a coma for?",
+    answers: ["3 months", "8 months", "1 year", "2 years"],
+    correctAnswerIndex: 1,
+  },
+  {
+    question: "in season 4-- why does spike return to sunnydale??",
+    answers: [
+      "to kill the slayer once and for all",
+      "to get revenge on drusilla",
+      "to get his soul back",
+      "to get the gem of amarra",
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    question:
+      "speaking of season 4, who appears in all of the scoobies dreams THE MOST?",
+    answers: [
+      "principal snake",
+      "the master",
+      "the cheese man",
+      "the first slayer",
+    ],
+    correctAnswerIndex: 2,
+  },
+  {
+    question:
+      "in the episode 'halloween' what ritual did ethan rayne perform to cause chaos by forcing everyone to loiterally become whatever costume they were wearing?",
+    answers: [
+      "ritual of janus",
+      "ritual of chaos",
+      "ritual of neverborn",
+      "ritual on manon",
+    ],
+    correctAnswerIndex: 0,
+  },
 ];
