@@ -33,7 +33,7 @@ function playGame() {
   askQuestion(currentIndex);
 }
 function startTimer() {
-  seconds = 90;
+  seconds = 120;
   answersCorrect = 0;
   $(".seconds").text(seconds);
   seconds = seconds - 1;
