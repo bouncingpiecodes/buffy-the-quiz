@@ -12,7 +12,7 @@ body {
 .container {
   margin-left: 50px;
   margin-right: 50px;
-  padding-block: 40px;
+  padding: 40px;
   border: solid plum;
   border-radius: 15px;
   max-width: 1200px;
@@ -45,11 +45,8 @@ h1 {
 }
 
 .questions {
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 p {
@@ -63,14 +60,10 @@ h2 {
 }
 
 .ehs {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   margin-top: 16px;
 }
 
-.vhs {
+.section {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -79,4 +72,8 @@ h2 {
 
 .hide {
   display: none;
+}
+
+#scores {
+  text-align: center;
 }

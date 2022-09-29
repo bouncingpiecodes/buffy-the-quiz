@@ -18,16 +18,25 @@
           <span>Time Remaining:&nbsp;</span><span class="seconds"></span>
         </div>
       </header>
-      <div class="ehs hide">
+      <div class="ehs section hide">
         <p>enter your initials</p>
         <input type="text" id="initials" name="initials" />
         <button onclick="saveScore()" class="button">Save Score</button>
       </div>
-      <div class="vhs hide">
+      <div class="vhs section hide">
         <h2>high scores</h2>
         <div id="scores"></div>
+        <button id="play-button" onclick="playGame()" class="button">
+          SLAY AGAIN
+        </button>
       </div>
-      <div class="questions hide">
+      <div class="out-of-time section hide">
+        <h2>you got staked</h2>
+        <button id="play-button" onclick="playGame()" class="button">
+          SLAY AGAIN
+        </button>
+      </div>
+      <div class="questions section hide">
         <h2 id="question">this is the question</h2>
 
         <p onclick="answerQuestion(0)" id="answer-a">answers</p>
