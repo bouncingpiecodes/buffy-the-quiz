@@ -19,6 +19,10 @@ body {
   width: 100%;
   color: plum;
   margin-top: 16px;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -32,6 +36,7 @@ h1 {
   font-size: large;
   margin: 12px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .buttons {
@@ -47,12 +52,6 @@ h1 {
 .questions {
   margin: 0 auto;
   text-align: center;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
 }
 
 h2 {

@@ -9,18 +9,22 @@ function showVhs() {
   $(".buttons").hide();
 
   var scores = localStorage.scores ? JSON.parse(localStorage.scores) : [];
-  var highScores = scores.map(function (score) {
-    return (
-      "<p>" +
-      score.initials +
-      " - " +
-      score.score +
-      "/" +
-      questions.length +
-      "</p>"
-    );
-  });
-  $("#scores").html(highScores.join(""));
+  var highScores = scores.length
+    ? scores
+        .map(function (score) {
+          return (
+            "<p>" +
+            score.initials +
+            " - " +
+            score.score +
+            "/" +
+            questions.length +
+            "</p>"
+          );
+        })
+        .join("")
+    : "No High Scores Yet";
+  $("#scores").html(highScores);
 }
 function playGame() {
   $(".buttons").hide();

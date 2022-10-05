@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <header>
-        <h1>Buffy The Quiz</h1>
+        <h1>Only For The Chosen A BTVS Quiz</h1>
         <div class="timer hide">
           <span>Time Remaining:&nbsp;</span><span class="seconds"></span>
         </div>
@@ -39,10 +39,18 @@
       <div class="questions section hide">
         <h2 id="question">this is the question</h2>
 
-        <p onclick="answerQuestion(0)" id="answer-a">answers</p>
-        <p onclick="answerQuestion(1)" id="answer-b">answers</p>
-        <p onclick="answerQuestion(2)" id="answer-c">answers</p>
-        <p onclick="answerQuestion(3)" id="answer-d">answers</p>
+        <button class="button" onclick="answerQuestion(0)" id="answer-a">
+          answers
+        </button>
+        <button class="button" onclick="answerQuestion(1)" id="answer-b">
+          answers
+        </button>
+        <button class="button" onclick="answerQuestion(2)" id="answer-c">
+          answers
+        </button>
+        <button class="button" onclick="answerQuestion(3)" id="answer-d">
+          answers
+        </button>
       </div>
       <div class="buttons">
         <button id="play-button" onclick="playGame()" class="button">
